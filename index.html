@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+    <head>
+        <title>IFTM NEWS</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel = "stylesheet" />
+    </head>
+    <body>
+        <header>
+           
+            <div class="center">
+             <div class="about-header">
+                <p> Um site IFTM NEWS</p>
+            </div> 
+            
+
+            <div class="wraper-header">
+                <div class="logo">
+                    <img src="if.jpg">
+                    <h2><span>IFTM </span>News</h2>
+                    
+                </div>
+
+                <div class="banner-ads">
+                    <h2><span style="font-size: 23px;">IFTM News</span><br/>Insira um anúncio aqui</h2>
+             </div>
+             </div>
+             </div>
+            </div>
+            </header>
+
+            <!--FIM HEADER-->
+            <div class="center">
+             <div class="menu-main">
+                <a href="index.html">Home</a>
+                <a href="index.html">Noticias</a>    
+                <a href="curriculum.html">Curriculo</a> 
+                <a href="contato.html">Contato</a>
+            </div>
+             
+
+             <section class="noticias-1">
+                <div class="noticias-wraper-1">
+                    <img src="cl1.png">
+                    <img src="cl2.png">
+
+                    <div class="noticia-destaque">
+                        <div class="noticia-destaque-single">
+                            <h3>Clarão em SP: o que causou o fenômeno filmado nos céus nesta quarta, segundo especialistas</h3>
+                            <br> 
+            
+            <p id="paragrafo">as gravações mostram o momento que um objeto luminoso entra na atmosfera e depois explode, de acordo com o astrônomo Thiago Signorini Gonçalves, professor da Universidade Federal do Rio de Janeiro, e com o geógrafo Sergio Mazzi, presidente da Rede Brasileira de Monitoramento de Meteoros (Bramom) e José Willians Vilas Boas, da divisão de astrofísica do Instituto Nacional de Pesquisas Espaciais (Inpe) e Roberto Costa, professor do Instituto de Astronomia, Geofísica e Ciências Atmosféricas (IAG) da Universidade de São Paulo (USP). Os registros ocorreram pouco depois das 5h. </p>
+            <br> 
+            <p id="demo">Sempre existe um certo risco, mas, em geral, se são alguns objetos que representam algum risco real, a gente acompanha os objetos relativamente grandes que poderiam causar algum estrago, que possa danificar prédios, que possa ter algum tipo de risco real", falou o astrônomo. "Esse [objeto que causou o clarão nesta quarta] muito provavelmente não teria risco nenhum. Deve ser algum menor, muito pequeno, que produz um espetáculo, como se vê nesses vídeos que estão passando aí, mas não representa nenhum tipo de perigo real". </p>
+            <br>   
+            <h2>Bramom</h2>
+            <br>  
+            <p id="info">"da Rede Brasileira de Monitoramento de Meteoros (Bramom),também registrou o brilho no céu na capital. "As análises preliminares indicam um meteoro de origem no radiante 00691 ZCE zeta Cetids", disse Sérgio, que explicou que os códigos aparentemente complexos da radiante significam a trajetória que o objeto fez.
+
+                Segundo a Bramom, o que entrou na órbita da Terra foi um asteroide de pouco mais de 1 metro de diâmetro. Em seguida, ele atingiu a atmosfera a uma velocidade de mais de 58 mil km/h e explodiu quando estava a 86 quilômetros de altitude. </p>
+
+                <br>
+
+                <p>
+                    Clique no botão para alterar a página
+                    o título da página!"
+                </p>
+                <br>
+                
+                <button class="enviar" onclick="changePageTitle()">
+                  
+                  Alterar título da página
+            
+                </button>
+
+            
+        </div>
+                
+                
+                <script>
+                    var element = document.getElementById("paragrafo");
+                    document.getElementById("paragrafo").innerHTML = "Meu nome é William " + element.innerHTML;
+                    
+                </script>
+        
+                <script>
+                    var element = document.getElementById("demo");
+                    document.getElementById("demo").innerHTML = "Aline Alves Ribeiro relata que  " + element.innerHTML;
+                    
+                </script>
+        
+                <script>
+                    var element = document.getElementById("info");
+                    document.getElementById("info").innerHTML = "Jefferson Beethoven presidente   " + element.innerHTML;
+                    
+                </script>
+                <script>
+                    var element = document.getElementsByTagName("p");
+                    document.getElementById("ddemo").innerHTML = 'Aparição de Meteóro choca população de São Paulo ' +
+                    element[1].innerHTML;
+                    </script>  
+        
+                    
+                      
+                    <script type="text/javascript">
+                        function changePageTitle() {
+                            newPageTitle = '“Aparição de Meteóro choca população de São Paulo”';
+                            document.title = newPageTitle;
+                            alert("“Aparição de Meteóro choca população de São Paulo”");
+                        }
+                    </script>
+                
+        
+        
+
+
+
+        
+    </body>
+</html>
